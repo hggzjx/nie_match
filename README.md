@@ -1,6 +1,11 @@
 # mie_match
 ![image](https://user-images.githubusercontent.com/103107137/228115147-4fa41608-51f6-46ca-ac41-cf24e225c057.png)<br>
 
+Model
+---
+<img width="3037" alt="Figure2" src="https://user-images.githubusercontent.com/103107137/228115682-9ae8c4f4-fe9e-4b90-be57-5d9f9be02c81.png"><br>
+
+Overview of MIE-Match. (a) Model Structure; (b) Encoder; (c) Self-Fusion Module (SFM), comprising two options; (d) Interactive-Fusion Module (IFM), comprising two options.
 How to run the model in the project
 ---
 #tensorflow >= 1.14<br>
@@ -28,4 +33,9 @@ Download Link: https://cims.nyu.edu/~sbowman/multinli/<br>
 7.GLUE (General Language Understanding Evaluation): This is a collection of nine natural language understanding tasks that can be used to evaluate language models. The tasks include sentence classification, text matching, and paraphrasing.<br>
 Download Link: https://gluebenchmark.com/<br>
 8.RTE (Recognizing Textual Entailment): This dataset is a collection of pairs of text created for the purpose of evaluating natural language inference systems. The task is to determine if a piece of text entails another piece of text.<br>
-Download Link: https://aclweb.org/aclwiki/Recognizing_Textual_Entailment_(RTE)_Datasets
+Download Link: https://aclweb.org/aclwiki/Recognizing_Textual_Entailment_(RTE)_Datasets<br>
+
+Hyperparameter Setting
+---
+Set the parameters of the corresponding model in the corresponding position in the train.py script.The Implementation Details are shown as below：<br>
+The experiments are conducted using the BiLSTM and BERT as the encoders of the MIE-Match model framework respectively. The MIE-Match model has different hyperparameter settings on different datasets, and some common hyperparameters are listed here as follows. The parameters of the pre-trained BERT are Layer = 24, Hidden = 1024, Head = 16, the size of the BiLSTM encoder is 64, the size of the BiLSTM used in the model subject is 128, and the size of the hidden layer of the fully connected layer MLP in the main body of the MIE-Match is 64. Cross-entropy is used as the loss function in the experiments, using $\beta_1 = 0.9$ and The Adam optimizer with $\beta_2 = 0.999$ is trained for 30 epochs, and the optimal model is selected using the early stop mechanism. 
