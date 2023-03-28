@@ -15,7 +15,7 @@ python train.py<br>
 Training with your own data
 ---
 Process your own dataset into a csv file with three fields for header sentence1, sentence2, label, as shown below:<br>
-<img width="136" alt="image" src="https://user-images.githubusercontent.com/103107137/228113859-4f78b407-718e-46c7-9308-4e47c6a385dc.png">
+<img width="136" alt="image" src="https://user-images.githubusercontent.com/103107137/228113859-4f78b407-718e-46c7-9308-4e47c6a385dc.png"><br>
 Split the data into train.csv, dev.csv, test.csv and put them in . /datasets/dataset folder.<br>
 Here are some commonly used text matching and natural language inference datasets:<br>
 1.SNLI (Stanford Natural Language Inference): This dataset is a widely-used natural language inference dataset provided by Stanford University. It contains around 50,000 labeled pairs of text, including three labels: entailment, contradiction, and neutral.<br>
