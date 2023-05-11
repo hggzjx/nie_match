@@ -1,11 +1,11 @@
-# mie_match
+# nie_match
 ![image](https://github.com/hggzjx/nie_match/assets/103107137/69e18fff-3d03-474f-b3c3-96c9de389c6d)<br>
 
 Model
 ---
-<img width="3037" alt="Figure2" src="https://user-images.githubusercontent.com/103107137/228115682-9ae8c4f4-fe9e-4b90-be57-5d9f9be02c81.png"><br>
+<img width="3111" alt="Figure2" src="https://github.com/hggzjx/nie_match/assets/103107137/6a6a3037-1746-436e-ac9f-aa6397375235"><br>
 
-Overview of MIE-Match. (a) Model Structure; (b) Encoder; (c) Self-Fusion Module (SFM), comprising two options; (d) Interactive-Fusion Module (IFM), comprising two options.
+Overview of MIE-Match. (a) Model Structure; (b) Encoder; (c) Function Amplification Module (FAM), comprising two options; (d) Interaction Extraction Module (IFM), comprising two options.
 How to run the model in the project
 ---
 #tensorflow >= 1.14<br>
