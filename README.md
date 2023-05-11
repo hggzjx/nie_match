@@ -1,5 +1,5 @@
 # mie_match
-![image](https://user-images.githubusercontent.com/103107137/228115147-4fa41608-51f6-46ca-ac41-cf24e225c057.png)<br>
+![image](https://github.com/hggzjx/nie_match/assets/103107137/69e18fff-3d03-474f-b3c3-96c9de389c6d)<br>
 
 Model
 ---
